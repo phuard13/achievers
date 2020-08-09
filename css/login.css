@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #ddd;
+    
+}
+.login{
+    background-color: #2f4f4f;
+    position: relative;
+    padding: 40px;
+    width: 287px;
+    margin: auto;
+    margin-top: 80px;
+    height: 450px;
+    margin-left: 500px;
+    border-radius: 10px 5px;
+}
+/* .form {
+    width: 200px;
+    text-align: center;
+} */
+input{
+    width: 200px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+input[type=button]{
+    border: none;
+    width: 200px;
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    line-height: 15px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+.input[type=button]:hover {
+    color: #fff;
+    background-color: #fff;
+}
+a{
+    color: rgba(27, 110, 143, 0.808) ;
+}
+a:hover {
+    color:rgb(192,192,192);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+/* @media (min-width:992px) {
+    .login{
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
